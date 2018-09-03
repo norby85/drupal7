@@ -26,6 +26,8 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/drupal7.css.less
+stylesheets[all][] = css/drupal7-grid.css.less
 
 
 ;;;;;;;;;;;;;;;;;;;;;
