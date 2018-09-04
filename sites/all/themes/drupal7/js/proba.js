@@ -1,1 +1,0 @@
-Drupal.t('This is text');
