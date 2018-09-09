@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="58e296dc-b034-4b12-af88-c4ac519999ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7.css.less" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7.css.less" />
       <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" />
-      <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/template.php" />
+      <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="drupal7.info" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="833">
+              <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -30,8 +29,8 @@
       <file leaf-file-name="proba.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -41,7 +40,17 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_more_link.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/read_more_link.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,9 +95,10 @@
       <list>
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-grid.css.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.css.less" />
-        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/template.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7.css.less" />
+        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" />
+        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/js/read_more_link.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js" />
       </list>
     </option>
@@ -122,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,10 +174,20 @@
               <item name="drupal7" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="drupal7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupal7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sites" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="all" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="drupal7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,12 +228,13 @@
       <workItem from="1536230574725" duration="16000" />
       <workItem from="1536319920409" duration="1721000" />
       <workItem from="1536337660976" duration="3709000" />
-      <workItem from="1536493632426" duration="2672000" />
+      <workItem from="1536493632426" duration="2702000" />
+      <workItem from="1536502389437" duration="12215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22112000" />
+    <option name="totallyTimeSpent" value="34357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -251,14 +271,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -610,26 +622,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="77" column="7" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.css.less" />
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-grid.css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -642,18 +639,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/read_more_link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="833">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding />
         </state>
       </provider>

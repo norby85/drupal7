@@ -47,6 +47,7 @@ scripts[] = 'bootstrap/js/scrollspy.js'
 scripts[] = 'bootstrap/js/tab.js'
 scripts[] = 'bootstrap/js/transition.js'
 scripts[] = 'js/proba.js'
+scripts[] = 'js/read_more_link.js
 
 ; Disable the CDN provider so compiled source files can be used.
 ; settings[bootstrap_cdn] = ''
