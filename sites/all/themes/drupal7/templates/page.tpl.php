@@ -39,19 +39,6 @@
   </div>
 </header>
 
-<div class="select-values">
-    <select id="single">
-        <option>Single</option>
-        <option>Single2</option>
-    </select>
-
-    <select id="multiple" multiple="multiple">
-        <option selected="selected">Multiple</option>
-        <option>Multiple2</option>
-        <option selected="selected">Multiple3</option>
-    </select>
-</div>
-
 <div class="main-container <?php print $container_class; ?>">
 
   <header role="banner" id="page-header">
