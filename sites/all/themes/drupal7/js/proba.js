@@ -36,6 +36,11 @@
             });
         }
     }
+
+    $.noConflict();
+    jQuery( document ).ready(function( $ ) {
+
+    });
 }(jQuery));
 
 /*$( "#result1" ).append( $( "p:first" ).hasClass( "selected" ).toString() );
