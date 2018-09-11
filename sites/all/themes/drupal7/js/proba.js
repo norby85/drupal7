@@ -23,10 +23,6 @@
                 }
             });
 
-            $( "ul li" ).addClass(function( index ) {
-                return "item-" + index;
-            });
-
             $( "li:last" ).removeClass(function() {
                 return $( this ).prev().attr( "class" );
             });
@@ -34,6 +30,8 @@
             $( ".views-row" ).click(function() {
                 $( this ).toggleClass( "highlight" );
             });
+
+            
         }
     }
 
