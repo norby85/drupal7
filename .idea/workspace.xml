@@ -4,9 +4,6 @@
     <list default="true" id="58e296dc-b034-4b12-af88-c4ac519999ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-animations.css.less" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-animations.css.less" />
-      <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7.css.less" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7.css.less" />
-      <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" />
-      <change beforePath="$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js" afterPath="$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="drupal7-animations.css.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-animations.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding>
                 <element signature="e#26#189#1" expanded="true" />
               </folding>
@@ -44,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -123,6 +120,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>animatable</find>
+      <find>fadeInUp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,9 +137,11 @@
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info" />
-        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-animations.css.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7.css.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-animations.css.less" />
+        <option value="G:/Drupal fontos/CSS Animations backup/drupal7-box-animations.js" />
+        <option value="G:/Drupal fontos/CSS Animations backup/drupal7-box-animations.css.less" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1536593396671" duration="5929000" />
       <workItem from="1536663701778" duration="1699000" />
       <workItem from="1536743517082" duration="663000" />
-      <workItem from="1536852897761" duration="3997000" />
+      <workItem from="1536852897761" duration="5412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46677000" />
+    <option name="totallyTimeSpent" value="48092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -329,22 +329,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/drupal7.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -716,15 +700,31 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/js/proba.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Drupal fontos/CSS Animations backup/drupal7-box-animations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Drupal fontos/CSS Animations backup/drupal7-box-animations.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/drupal7/css/drupal7-animations.css.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
             <element signature="e#26#189#1" expanded="true" />
           </folding>
