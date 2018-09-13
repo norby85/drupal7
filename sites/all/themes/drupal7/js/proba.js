@@ -14,7 +14,7 @@
 
     Drupal.behaviors.uniqueKey = {
         attach:function (context, height) {
-            $( ".views-row" ).addClass( "loaded-rows" );
+            $( ".views-row" ).addClass( "fadeInUp loading-rows" );
 
 
             $( "img.img-responsive" ).load(function() {
@@ -31,9 +31,46 @@
                 $( this ).toggleClass( "highlight" );
             });
 
-            
+            // Function which adds the 'animated' class to any '.animatable' in view
+            var doAnimations = function() {
+
+                // Calc current offset and get all animatables
+                var offset = $(window).scrollTop() + $(window).height(),
+                    $animatables = $('.views-row');
+
+                // Unbind scroll handler if we have no animatables
+                if ($animatables.length == 0) {
+                    $(window).off('scroll', doAnimations);
+                }
+
+                // Check all animatables and animate them if necessary
+                $animatables.each(function(i) {
+                    var $animatable = $(this);
+                    if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+                        $animatable.removeClass('loading-rows').addClass('animated');
+                    }
+                });
+
+            };
+
+            // Hook doAnimations on scroll, and trigger a scroll
+            $(window).on('scroll', doAnimations);
+            $(window).trigger('scroll');
         }
     }
+
+    jQuery.each({
+        slideDown: genFx("show"),
+        slideUp: genFx("hide"),
+        slideToggle: genFx("toggle"),
+        fadeIn: { opacity: "show" },
+        fadeOut: { opacity: "hide" },
+        fadeToggle: { opacity: "toggle" }
+    }, function( name, props ) {
+        jQuery.fn[ name ] = function( speed, easing, callback ) {
+            return this.animate( props, speed, easing, callback );
+        };
+    });
 
     $.noConflict();
     jQuery( document ).ready(function( $ ) {
